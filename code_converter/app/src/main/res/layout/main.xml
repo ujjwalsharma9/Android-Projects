@@ -1,0 +1,76 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	>
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#90CAF9"
+		android:orientation="vertical"
+		>
+		<EditText
+			android:id="@+id/edittext1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="60dp"
+			android:padding="8dp"
+			android:text="Code Converter"
+			android:textSize="30sp"
+			android:textStyle="bold|italic"
+			android:textColor="#000000"
+			android:textColorHint="#607D8B"
+			/>
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="50dp"
+			android:layout_marginTop="50dp"
+			android:padding="8dp"
+			android:text="Decimal - Binary"
+			android:textSize="16sp"
+			android:textStyle="italic"
+			android:textColor="#000000"
+			/>
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="50dp"
+			android:layout_marginTop="25dp"
+			android:padding="8dp"
+			android:text="Binary - Octal"
+			android:textSize="16sp"
+			android:textStyle="italic"
+			android:textColor="#000000"
+			/>
+		<Button
+			android:id="@+id/button3"
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="50dp"
+			android:layout_marginTop="25dp"
+			android:padding="8dp"
+			android:text="Hexadecimal - Binary"
+			android:textSize="16sp"
+			android:textStyle="italic"
+			android:textColor="#000000"
+			/>
+		<Button
+			android:id="@+id/button4"
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="50dp"
+			android:layout_marginTop="25dp"
+			android:padding="8dp"
+			android:text="Decimal - Hexadecimal"
+			android:textSize="16sp"
+			android:textStyle="italic"
+			android:textColor="#000000"
+			/>
+	</LinearLayout>
+</LinearLayout>
